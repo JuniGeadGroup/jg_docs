@@ -10,7 +10,27 @@ export default defineConfig({
       { text: 'Главная', link: '/' },
       { text: 'Поддержать меня', link: '/support' }
     ],
-
+    search: {
+      provider: 'local',
+      options: {
+        translations:{
+          button: {
+            buttonText: "Поиск",
+            buttonAriaLabel: "Поиск"
+          },
+          modal: {
+            displayDetails: "Подробнее",
+            resetButtonTitle: "Сбросить",
+            noResultsText: "Ничего не найдено для",
+            footer: {
+              navigateText: "для навигации",
+              selectText: "для выбора",
+              closeText: "для закрытия"
+            }
+          }
+        }
+      }
+    },
     sidebar: [
       {
         text: 'Начало работы',
@@ -61,7 +81,16 @@ export default defineConfig({
       prev: "Предыдущая страница",
       next: "Следующая страница"
     },
-    darkModeSwitchLabel: "Переключить тему"
+    footer: {
+      copyright: "(c) 2022-2023 danilacpp"
+    },
+    darkModeSwitchLabel: "Переключить тему",
+    sidebarMenuLabel: "Меню",
+    editLink: {
+      pattern: "https://github.com/JuniGeadGroup/docs/edit/main/src/:path",
+      text: "Редактировать страницу"
+    },
+    returnToTopLabel: "Вернуться в начало"
   },
-  srcDir: "src/",
+  srcDir: "src/"
 })
