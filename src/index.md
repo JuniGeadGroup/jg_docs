@@ -8,11 +8,11 @@ hero:
   tagline: by danilacpp
   actions:
     - theme: brand
-      text: Пригласить
+      text: Добавить
       link: https://discord.com/oauth2/authorize?client_id=988380732210679818&scope=bot+applications.commands&permissions=274878254144
     - theme: alt
       text: Подробнее
-      link: /intro
+      link: /docs/intro
 
 features:
   - title: Раунды

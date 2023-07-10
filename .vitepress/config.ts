@@ -4,11 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "JuniGead",
   description: "JuniGead - игровой бот для платформы Discord на русском языке.",
+  lang: "ru",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Поддержать меня', link: '/support' }
+      { text: 'Поддержать меня', link: '/docs/support' }
     ],
     search: {
       provider: 'local',
@@ -71,6 +72,10 @@ export default defineConfig({
           { text: 'Скоро...' }
         ],
         collapsed: true
+      },
+      {
+        text: 'Список изменений',
+        link: '/docs/changelog'
       }
     ],
 
@@ -90,7 +95,18 @@ export default defineConfig({
       pattern: "https://github.com/JuniGeadGroup/docs/edit/main/src/:path",
       text: "Редактировать страницу"
     },
-    returnToTopLabel: "Вернуться в начало"
+    returnToTopLabel: "Вернуться в начало",
+    outline: false,
+    lastUpdated: {
+      text: "Отредактировано"
+    },
+    logo: "/assets/favicon.ico"
   },
+  head: [
+    [
+      "link",
+      { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon.ico"}
+    ]
+  ],
   srcDir: "src/"
 })
