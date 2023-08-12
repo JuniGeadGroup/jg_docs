@@ -5,6 +5,7 @@ export default defineConfig({
   title: "JuniGead",
   description: "JuniGead - игровой бот для платформы Discord на русском языке.",
   lang: "ru",
+  appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -89,7 +90,7 @@ export default defineConfig({
     footer: {
       copyright: "(c) 2022-2023 danilacpp"
     },
-    darkModeSwitchLabel: "Переключить тему",
+    darkModeSwitchLabel: undefined,
     sidebarMenuLabel: "Меню",
     editLink: {
       pattern: "https://github.com/JuniGeadGroup/docs/edit/main/src/:path",
@@ -108,5 +109,5 @@ export default defineConfig({
       { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon.ico"}
     ]
   ],
-  srcDir: "src/"
+  srcDir: "src/",
 })
