@@ -37,7 +37,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Начало работы',
-        link: '/intro'
+        link: '/docs/'
       },
       {
         text: 'Бонусы за поддержку',
@@ -98,7 +98,9 @@ export default defineConfig({
       text: "Редактировать страницу"
     },
     returnToTopLabel: "Вернуться в начало",
-    outline: false,
+    outline: {
+      label: "На этой странице"
+    },
     lastUpdated: {
       text: "Отредактировано"
     },
