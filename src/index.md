@@ -12,11 +12,11 @@ hero:
       link: https://discord.com/oauth2/authorize?client_id=988380732210679818&scope=bot+applications.commands&permissions=274878254144
     - theme: alt
       text: Подробнее
-      link: /docs/intro
+      link: /docs/
 
 features:
   - title: Раунды
-    details: Играйте сразу несколько раз с вводом одной команды!
+    details: Играйте сразу несколько раз в играх на двоих с вводом одной команды!
   - title: Игра в ветках
     details: Играйте отдельно от всех, результат будет доступен всем, когда окончится игра.
   - title: И другое...

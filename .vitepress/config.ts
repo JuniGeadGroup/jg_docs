@@ -41,7 +41,7 @@ export default defineConfig({
       },
       {
         text: 'Бонусы за поддержку',
-        link: '/support'
+        link: '/docs/support'
       },
       {
         text: 'Игры для одного',
@@ -99,7 +99,8 @@ export default defineConfig({
     },
     returnToTopLabel: "Вернуться в начало",
     outline: {
-      label: "На этой странице"
+      label: "На этой странице",
+      level: "deep"
     },
     lastUpdated: {
       text: "Отредактировано"
