@@ -45,7 +45,7 @@ export default defineConfig({
       },
       {
         text: 'Игры для одного',
-        link: '/for_single_player',
+        link: '/docs/single_games/',
         items: [
           { text: 'Скоро...' }
         ],
@@ -53,7 +53,7 @@ export default defineConfig({
       },
       {
         text: 'Игры для двоих',
-        link: '/for_two_players',
+        link: '/docs/games_for_two/',
         items: [
           { text: 'Скоро...' }
         ],
@@ -61,7 +61,7 @@ export default defineConfig({
       },
       {
         text: 'Игры для 3+ игроков',
-        link: '/for_more_players',
+        link: '/docs/games_for_three/',
         items: [
           { text: 'Скоро...' }
         ],
@@ -69,7 +69,7 @@ export default defineConfig({
       },
       {
         text: 'Мультиплеер',
-        link: '/multiplayer',
+        link: '/docs/multiplayer',
         items: [
           { text: 'Скоро...' }
         ],
@@ -100,7 +100,7 @@ export default defineConfig({
     returnToTopLabel: "Вернуться в начало",
     outline: {
       label: "На этой странице",
-      level: "deep"
+      level: 1
     },
     lastUpdated: {
       text: "Отредактировано"
