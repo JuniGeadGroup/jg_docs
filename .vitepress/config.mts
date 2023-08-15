@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
-
+import {defineConfig} from "vitepress"
 
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
   title: "JuniGead",
   description: "JuniGead - игровой бот для платформы Discord на русском языке.",
@@ -10,11 +10,18 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Главная', link: '/' },
-      { text: 'Поддержать меня', link: '/docs/support' }
+      { 
+        text: "Главная", link: "/" 
+      },
+      { 
+        text: "Поддержать меня", link: "/docs/support" 
+      },
+      { 
+        text: "Discord", link: "https://discord.gg/4jq5xFSksh"
+      }
     ],
     search: {
-      provider: 'local',
+      provider: "local",
       options: {
         translations:{
           button: {
@@ -36,53 +43,37 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'Начало работы',
-        link: '/docs/'
+        text: "Начало работы",
+        link: "/docs/"
       },
       {
-        text: 'Бонусы за поддержку',
-        link: '/docs/support'
+        text: "Бонусы за поддержку",
+        link: "/docs/support"
       },
       {
-        text: 'Игры для одного',
-        link: '/docs/single_games/',
-        items: [
-          { text: 'Скоро...' }
-        ],
-        collapsed: true
+        text: "Игры для одного",
+        link: "/docs/single_games/"
       },
       {
-        text: 'Игры для двоих',
-        link: '/docs/games_for_two/',
-        items: [
-          { text: 'Скоро...' }
-        ],
-        collapsed: true
+        text: "Игры для двоих",
+        link: "/docs/games_for_two/"
       },
       {
-        text: 'Игры для 3+ игроков',
-        link: '/docs/games_for_three/',
-        items: [
-          { text: 'Скоро...' }
-        ],
-        collapsed: true
+        text: "Игры для 3+ игроков",
+        link: "/docs/games_for_three/"
       },
       {
-        text: 'Мультиплеер',
-        link: '/docs/multiplayer',
-        items: [
-          { text: 'Скоро...' }
-        ],
-        collapsed: true
+        text: "Список изменений",
+        link: "/docs/changelog"
       },
       {
-        text: 'Список изменений',
-        link: '/docs/changelog'
+        text: "Условия использования",
+        link: "/terms"
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/JuniGeadGroup/docs' }
+      { icon: "github", link: "https://github.com/JuniGeadGroup/docs" }
     ],
     docFooter: {
       prev: "Предыдущая страница",
@@ -100,7 +91,7 @@ export default defineConfig({
     returnToTopLabel: "Вернуться в начало",
     outline: {
       label: "На этой странице",
-      level: 1
+      level: "deep"
     },
     lastUpdated: {
       text: "Отредактировано"
@@ -113,5 +104,5 @@ export default defineConfig({
       { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon.ico"}
     ]
   ],
-  srcDir: "src/",
+  srcDir: "src/"
 })
