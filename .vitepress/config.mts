@@ -96,7 +96,7 @@ export default defineConfig({
     lastUpdated: {
       text: "Отредактировано"
     },
-    logo: "src/assets/favicon.ico"
+    logo: "assets/favicon.ico"
   },
   head: [
     [
