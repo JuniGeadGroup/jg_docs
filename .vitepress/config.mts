@@ -104,5 +104,5 @@ export default defineConfig({
       { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon.ico"}
     ]
   ],
-  srcDir: "src/"
+  srcDir: "./"
 })
