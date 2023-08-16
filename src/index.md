@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Добавить
-      link: https://discord.com/oauth2/authorize?client_id=988380732210679818&scope=bot+applications.commands&permissions=274878254144
+      link: https://discord.com/api/oauth2/authorize?client_id=988380732210679818&permissions=360777600064&scope=bot%20applications.commands
     - theme: alt
       text: Подробнее
       link: /docs/
