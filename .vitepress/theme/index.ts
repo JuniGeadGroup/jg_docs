@@ -5,7 +5,9 @@ import NotFound from "./NotFound.vue"
 
 watchEffect(
   () => {
-    document.getElementsByTagName("html").item(0)?.classList.add("dark");
+    try {
+        document.getElementsByTagName("html").item(0)?.classList.add("dark");	
+    } catch {}
   }
 )
 export default {

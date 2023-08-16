@@ -96,12 +96,12 @@ export default defineConfig({
     lastUpdated: {
       text: "Отредактировано"
     },
-    logo: "assets/favicon.ico"
+    logo: "/favicon.ico"
   },
   head: [
     [
       "link",
-      { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon.ico"}
+      { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.ico"}
     ]
   ],
   srcDir: "src/"
