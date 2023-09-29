@@ -8,6 +8,7 @@ export default defineConfig({
   lang: "ru",
   appearance: false,
   themeConfig: {
+    /*
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { 
@@ -75,6 +76,7 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/JuniGeadGroup/docs" }
     ],
+    */
     docFooter: {
       prev: "Предыдущая страница",
       next: "Следующая страница"
