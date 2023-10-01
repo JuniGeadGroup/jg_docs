@@ -1,14 +1,2 @@
-User-agent: *
+User-agent: GPTBot
 Disallow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Yandex
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: DuckDuckGo
-Allow: /
