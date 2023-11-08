@@ -4,7 +4,7 @@
 
 <script>
 
-const BoardToken = process.env.CANNY_WIDGET;
+const BoardToken = "18cd2c92-13d1-a401-bfe1-974b5b11be08";
 
 export default {
   mounted() {
