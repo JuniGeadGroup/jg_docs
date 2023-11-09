@@ -41,6 +41,6 @@
 
 ## Разовое пожертвование
 
-[YouMoney](https://yoomoney.ru/to/4100118150662325) | [DonationAlerts](https://www.donationalerts.com/c/danilacpp)
+[YooMoney](https://yoomoney.ru/to/4100118150662325) | [DonationAlerts](https://www.donationalerts.com/c/danilacpp)
 
 Спасибо за ваш вклад <3
